@@ -236,5 +236,12 @@ function shouldConvertClass(file, node, opts, classInfo) {
   ) {
     return true;
   }
+  // Convert component classes
+  if (
+    /.*[/]Component[.](js|ts)$/.test(file.opts.filename) &&
+    opts.autoConvertComponentClass === true
+  ) {
+    return true;
+  }
   return false;
 }
