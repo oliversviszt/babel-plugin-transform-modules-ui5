@@ -1,6 +1,6 @@
 {
   "name": "@evosight/babel-plugin-transform-modules-ui5",
-  "version": "7.7.0",
+  "version": "7.7.0-evosight",
   "description": "An unofficial babel plugin for SAP UI5.",
   "main": "dist/index.js",
   "repository": {
